@@ -1,0 +1,47 @@
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+  margin:0;
+  padding:0;
+}
+html,body {
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-color: #FFF;
+  width: 100%;
+  font-family: Arial;
+}
+
+header {
+  background-color: #000;
+}
+
+header nav ul li {
+  display: inline-block;
+  width: 19%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+header nav ul li h1 {
+  float: left;
+}
+
+header nav ul li h2 {
+  float: right;
+}
+
+header nav ul li a {
+  color: #58595b;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav {
+  width: 85%;
+  padding: 0px 20px 20px 20px;
+  margin: auto;
+  height: 38px;
+}
