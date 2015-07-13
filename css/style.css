@@ -3,10 +3,6 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
   margin:0;
   padding:0;
 }
-html,body {
-  margin:0;
-  padding:0;
-}
 
 body {
   background-color: #FFF;
@@ -16,32 +12,45 @@ body {
 
 header {
   background-color: #000;
+  height: 57px;
+  padding: 0px;
 }
 
-header nav ul li {
+header h1 {
+  position: relative;
   display: inline-block;
-  width: 19%;
-  vertical-align: middle;
-  text-align: center;
+  top: 15px;
+  width: 18%;
 }
 
-header nav ul li h1 {
-  float: left;
+.logo {
+  width: 190px;
+  display: block;
 }
 
-header nav ul li h2 {
+.menu {
+  display: inline-block;
+  position: relative;
+  top: 7px;
+}
+
+.send_button {
   float: right;
 }
 
-header nav ul li a {
-  color: #58595b;
-  font-size: 20px;
-  text-decoration: none;
+.menu ul li {
+  display: inline-block;
+  margin: 0 41px;
+  text-align: center;
 }
 
-nav {
-  width: 85%;
-  padding: 0px 20px 20px 20px;
-  margin: auto;
-  height: 38px;
+.menu-item {
+  color: #5b5c5e;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 940px;
 }
