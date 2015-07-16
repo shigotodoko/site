@@ -51,6 +51,67 @@ header h1 {
 }
 
 .container {
-  margin: 0 auto;
-  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+
+.map {
+  float: left;
+  width: 50%;
+}
+
+.main ol {
+  list-style: none;
+  float: left;
+  width: 50%;
+}
+
+.article {
+  min-height: 160px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.article-title a {
+  text-decoration: none;
+  color: #29a5ca;
+}
+
+.share-and-tags {
+  list-style: none;
+}
+
+.share-and-tags li {
+  display: inline-block;
+}
+
+.article-details {
+  float: right;
+  position: relative;
+  top: -20px;
+}
+
+.clear {
+  clear: both;
 }
