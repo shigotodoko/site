@@ -5,7 +5,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,
 }
 
 body {
-  background-color: #FFF;
+  background-color: #eee;
   width: 100%;
   font-family: Arial;
 }
@@ -86,16 +86,67 @@ header h1 {
 }
 
 .article {
+  width: 100%;
+  background: #fff;
+  overflow: hidden;
   min-height: 160px;
-  padding: 10px;
-  border: 1px solid #ccc;
   box-sizing: border-box;
-  margin-top: 10px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.article-title {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.article-title:before {
+  content: '';
+  background: url(../images/graystar.jpg);
+  height: 23px;
+  width: 23px;
+  margin-right: 10px;
+  position: relative;
+  display: inline-block;
+  top: 2px;
+}
+
+.social-sprites:after {
+  content: '';
+  background: url(../images/social_sprites.jpg);
+  position: absolute;
+  width: 21px;
+  height: 21px;
+}
+
+.article-details-icon:after {
+  background-position: 0 34px;
 }
 
 .article-title a {
+  font-size: 27px;
+}
+
+.article-title a,
+.article-details {
   text-decoration: none;
   color: #29a5ca;
+}
+
+.article-body {
+  padding: 15px;
+  color: #969696;
+}
+
+.article-location {
+  font-weight: bold;
+}
+
+.article-location,
+.article-description,
+.article-publishedDate {
+  margin-bottom: 10px;
 }
 
 .share-and-tags {
@@ -109,7 +160,8 @@ header h1 {
 .article-details {
   float: right;
   position: relative;
-  top: -20px;
+  top: -18px;
+  margin-right: 15px;
 }
 
 .clear {
