@@ -1,4 +1,4 @@
-/* CSS reset */
+  /* CSS reset */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
   margin:0;
   padding:0;
@@ -106,10 +106,11 @@ header h1 {
   background: url(../images/graystar.jpg);
   height: 23px;
   width: 23px;
-  margin-right: 10px;
+  margin-right: 5px;
   position: relative;
   display: inline-block;
   top: 2px;
+  left: 5px;
 }
 
 .social-sprites:after {
@@ -145,16 +146,53 @@ header h1 {
 
 .article-location,
 .article-description,
-.article-publishedDate {
+.article-published-date {
   margin-bottom: 10px;
 }
 
-.share-and-tags {
+.article-social-and-tags {
   list-style: none;
+  height: 21px;
+}
+.article-social-and-tags ul {
+  position: relative;
+}
+.article-social-and-tags li {
+  display: inline-block;
 }
 
-.share-and-tags li {
-  display: inline-block;
+.article-social-and-tags li a {
+  text-decoration: none;
+}
+
+.article-social-and-tags a[href*='facebook.com'] {
+  background: url(../images/social_sprites.jpg) 0 0;
+}
+
+.article-social-and-tags a[href*='twitter.com'] {
+  background: url(../images/social_sprites.jpg) 0 -42px;
+}
+
+.article-social-and-tags a[href*='plus.google.com'] {
+  background: url(../images/social_sprites.jpg) 0 -21px;
+}
+
+.social-icon {
+  display: block;
+  width: 21px;
+  height: 21px;
+  text-indent: -9999px;
+}
+
+.tag {
+  background: #29a5ca;
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 3px;
+}
+
+.article-social-and-tags li a {
+  display: block;
 }
 
 .article-details {
