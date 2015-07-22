@@ -1,5 +1,5 @@
   /* CSS reset */
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,aside {
   margin:0;
   padding:0;
 }
@@ -57,7 +57,7 @@ header h1 {
 
 @media (min-width: 768px) {
   .container {
-    width: 750;
+    width: 750px;
   }
 }
 
@@ -73,16 +73,28 @@ header h1 {
   }
 }
 
+aside {
+  float: right;
+  width: 42%;
+}
 
 .map {
+  padding: 15px;
+  background: #fff;
+  box-sizing: border-box;
+  border-width: 1px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  margin-left: 20px;
+}
+
+main {
   float: left;
-  width: 50%;
+  width: 58%;
 }
 
 .main ol {
   list-style: none;
-  float: left;
-  width: 50%;
 }
 
 .article {
@@ -93,7 +105,7 @@ header h1 {
   box-sizing: border-box;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
   border-radius: 4px;
-  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .article-title {
