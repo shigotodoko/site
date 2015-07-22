@@ -150,6 +150,10 @@ header h1 {
   margin-bottom: 10px;
 }
 
+.article-published-date {
+  color: #bbb;
+}
+
 .article-social-and-tags {
   list-style: none;
   height: 21px;
@@ -189,6 +193,7 @@ header h1 {
   color: #fff;
   padding: 3px 10px;
   border-radius: 3px;
+  font-size: 90%;
 }
 
 .article-social-and-tags li a {
