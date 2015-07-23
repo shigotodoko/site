@@ -37,6 +37,15 @@ header h1 {
 
 .send_button {
   float: right;
+  display: inline-block;
+  background: linear-gradient(#29a5cb, #1a80b0);
+  padding: 17px 26px 16px 26px;
+}
+
+a.send_button {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .menu ul li {
