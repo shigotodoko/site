@@ -47,6 +47,10 @@ a.send_button {
   font-size: 20px;
 }
 
+a.send_button i {
+  margin-left: 10px;
+}
+
 .menu ul li {
   display: inline-block;
   margin: 0 41px;
@@ -122,18 +126,6 @@ main {
   padding: 10px;
 }
 
-.article-title:before {
-  content: '';
-  background: url(../images/graystar.jpg);
-  height: 23px;
-  width: 23px;
-  margin-right: 5px;
-  position: relative;
-  display: inline-block;
-  top: 2px;
-  left: 5px;
-}
-
 .social-sprites:after {
   content: '';
   background: url(../images/social_sprites.jpg);
@@ -144,6 +136,12 @@ main {
 
 .article-details-icon:after {
   background-position: 0 34px;
+}
+
+
+.fa-2 {
+  font-size: 1.5em;
+  color: #000;
 }
 
 .article-title a {
@@ -202,19 +200,30 @@ main {
   background: url(../images/social_sprites.jpg) 0 -21px;
 }
 
-.social-icon {
-  display: block;
-  width: 21px;
-  height: 21px;
-  text-indent: -9999px;
-}
-
 .tag {
   background: #29a5ca;
   color: #fff;
   padding: 3px 10px;
   border-radius: 3px;
   font-size: 90%;
+  position: relative;
+  top: -3px;
+}
+
+.facebook-color {
+  color: #3b5998;
+}
+
+.twitter-color {
+  color: #00aced;
+}
+
+.google-plus-color {
+  color: #dd4b39;
+}
+
+.star-color {
+  color: #ccc;
 }
 
 .article-social-and-tags li a {
