@@ -16,7 +16,12 @@ header h1 {
   display: inline-block;
   color: #fff;
   font-size: 24px;
-  line-height: 50px;
+  line-height: 30px;
+}
+
+header img,
+header .send-button {
+  display: none;
 }
 
 #search {
@@ -170,6 +175,41 @@ footer span {
   .container {
     width: 750px;
   }
+
+  header {
+    background: #000;
+  }
+
+  header h1 {
+    text-indent: -9999px;
+  }
+
+  header img {
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+  }
+
+  header .send-button {
+    display: inline-block;
+    float: right;
+    background: linear-gradient(#29a5cb, #1a80b0);
+  }
+
+  a.send-button {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: normal;
+    text-shadow: 2px 2px 15px rgba(150, 150, 150, 1);
+    padding: 10px 14px 10px;
+    margin-top: -9px;
+  }
+
+  a.send-button i {
+    margin-left: 10px;
+  }
+
 }
 
 @media (min-width: 992px) {
