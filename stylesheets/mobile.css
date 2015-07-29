@@ -57,6 +57,7 @@ fieldset {
 
 .article {
   overflow: hidden;
+  position: relative;
 }
 
 .article-title {
@@ -109,10 +110,11 @@ fieldset {
 }
 
 .article-published-date {
-  float: right;
   font-size: 12px;
   font-style: italic;
-  margin-right: 20px;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
 }
 
 .facebook-color {
@@ -292,6 +294,10 @@ footer span {
     border-bottom: 1px solid #ccc;
   }
 
+  .map h1 .fa-search-plus {
+    margin-left: 5px;
+  }
+
   .map figure {
     position: relative;
   }
@@ -303,7 +309,7 @@ footer span {
   .search-desktop {
     position: absolute;
     bottom: 0;
-    right: 20px;
+    right: 0;
   }
 
   use:hover {
