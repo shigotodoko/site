@@ -24,16 +24,28 @@ header .send-button {
   display: none;
 }
 
-#search {
-  background: #c4e5ee;
-  margin-bottom: 15px;
+aside {
+  display: none;
 }
 
 fieldset {
   border: 0;
 }
 
-select {
+.box {
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+  margin-bottom: 15px;
+}
+
+.search-mobile {
+  background: #c4e5ee;
+  margin-bottom: 0;
+}
+
+.search-mobile select {
   border-radius: 3px;
   width: 100%;
   background: #9ed6e5;
@@ -44,16 +56,10 @@ select {
 }
 
 .article {
-  background: #fff;
   overflow: hidden;
-  box-sizing: border-box;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
-  border-radius: 2px;
-  margin-bottom: 15px;
 }
 
 .article-title {
-  font-size: 19px;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -67,7 +73,7 @@ select {
 }
 
 .article-body {
-  font-size: 14px;
+  padding: 10px;
 }
 
 .container {
@@ -132,6 +138,8 @@ select {
 .pagination {
   position: relative;
   font-size: 14px;
+  margin-bottom: 15px;
+  height: 15px;
 }
 
 .pagination a {
@@ -158,11 +166,8 @@ select {
 
 footer {
   background: #2aa6ca;
-  bottom: 0;
-  position: absolute;
   width: 100%;
   text-align: center;
-  height: 25px;
 }
 
 footer span {
@@ -171,45 +176,14 @@ footer span {
   font-size: 13px;
 }
 
+.clear {
+  clear: both;
+}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
   }
-
-  header {
-    background: #000;
-  }
-
-  header h1 {
-    text-indent: -9999px;
-  }
-
-  header img {
-    display: inline-block;
-    vertical-align: middle;
-    float: left;
-  }
-
-  header .send-button {
-    display: inline-block;
-    float: right;
-    background: linear-gradient(#29a5cb, #1a80b0);
-  }
-
-  a.send-button {
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: normal;
-    text-shadow: 2px 2px 15px rgba(150, 150, 150, 1);
-    padding: 10px 14px 10px;
-    margin-top: -9px;
-  }
-
-  a.send-button i {
-    margin-left: 10px;
-  }
-
 }
 
 @media (min-width: 992px) {
@@ -221,5 +195,124 @@ footer span {
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
+  }
+
+  header {
+    background: #000;
+    height: 60px;
+  }
+
+  header h1 {
+    text-indent: -9999px;
+  }
+
+  header img {
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: 10px;
+  }
+
+  .send-job .send-button {
+    display: block;
+    background: linear-gradient(#29a5cb, #1a80b0);
+  }
+
+  a.send-button {
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal;
+    text-shadow: 2px 2px 15px rgba(150, 150, 150, 1);
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  a.send-button i {
+    margin-left: 10px;
+  }
+
+  .search-mobile {
+    display: none;
+  }
+
+  .search-desktop {
+    padding: 15px;
+  }
+
+  main {
+    float: left;
+    width: 60%;
+  }
+
+  .article-social-and-tags,
+  .article h1 {
+    font-size: 24px;
+  }
+
+  .article-title {
+    padding: 12px;
+  }
+
+  .article-body {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  aside {
+    display: inline-block;
+    float: right;
+    width: 40%;
+  }
+
+  .send-job {
+    margin-left: 20px;
+    padding: 15px;
+    position: relative;
+  }
+
+  .send-job small {
+    display: block;
+    color: seagreen;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  .map {
+    margin-left: 20px;
+    min-height: 650px;
+  }
+
+  .map h1 {
+    color: #2aa6ca;
+    padding: 15px;
+  }
+
+  .map figure {
+    position: relative;
+  }
+
+  .map figure figcaption {
+    padding: 10px;
+  }
+
+  .search-desktop {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+  }
+
+  use:hover {
+    fill: #29a5cb;
+    stroke: #1a80b0;
+    stroke-width: 2px;
+    z-index: 2
+  }
+  footer {
+    text-align: left;
+    position: absolute;
+    bottom: 0;
   }
 }
