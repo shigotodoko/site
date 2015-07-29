@@ -276,8 +276,9 @@ footer span {
     display: block;
     color: seagreen;
     font-weight: bold;
-    margin-top: 5px;
+    margin-bottom: 5px;
     text-align: center;
+    font-size: 15px;
   }
 
   .map {
@@ -288,6 +289,7 @@ footer span {
   .map h1 {
     color: #2aa6ca;
     padding: 15px;
+    border-bottom: 1px solid #ccc;
   }
 
   .map figure {
@@ -295,7 +297,7 @@ footer span {
   }
 
   .map figure figcaption {
-    padding: 10px;
+    padding: 15px;
   }
 
   .search-desktop {
