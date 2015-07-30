@@ -200,7 +200,7 @@ footer span {
   }
 
   header {
-    background: #000;
+    background: #2aa6ca;
     height: 60px;
   }
 
@@ -210,6 +210,8 @@ footer span {
 
   header img {
     display: inline-block;
+    width: 149px;
+    height: 29px;
     float: left;
     position: relative;
     top: 10px;
