@@ -220,6 +220,7 @@ footer span {
   .send-job .send-button {
     display: block;
     background: linear-gradient(#29a5cb, #1a80b0);
+    border-radius: 3px;
   }
 
   a.send-button {
@@ -296,8 +297,10 @@ footer span {
     border-bottom: 1px solid #ccc;
   }
 
-  .map h1 .fa-search-plus {
-    margin-left: 5px;
+  .map h1 .fa-search {
+    margin-right: 5px;
+    font-size: 17px;
+    color: #ccc;
   }
 
   .map figure {
