@@ -171,6 +171,8 @@ footer {
   background: #2aa6ca;
   width: 100%;
   text-align: center;
+  position: absolute;
+  bottom: 0;
 }
 
 footer span {
