@@ -80,6 +80,7 @@ fieldset {
 .container {
   padding: 10px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .article-location {
@@ -186,11 +187,19 @@ footer span {
   .container {
     width: 750px;
   }
+  footer span {
+    width: 100%;
+    text-align: left;
+  }
 }
 
 @media (min-width: 992px) {
   .container {
     width: 970px;
+  }
+  footer span {
+    width: 100%;
+    text-align: left;
   }
 }
 
@@ -323,9 +332,13 @@ footer span {
     stroke-width: 2px;
     z-index: 2
   }
+
   footer {
-    text-align: left;
-    position: absolute;
-    bottom: 0;
+    clear: both;
+  }
+
+  footer span {
+    width: 100%;
+    text-align: left0;
   }
 }
