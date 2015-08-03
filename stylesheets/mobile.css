@@ -1,4 +1,3 @@
-
 body {
   background-color: #eee;
   width: 100%;
@@ -282,10 +281,6 @@ footer span {
     float: right;
     width: 39%;
     margin-left: 10px;
-  }
-
-  .send-job {
-    width: 40%;
   }
 
   .send-job {
