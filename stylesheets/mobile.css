@@ -171,8 +171,7 @@ footer {
   background: #2aa6ca;
   width: 100%;
   text-align: center;
-  position: absolute;
-  bottom: 0;
+  height: 50px;
 }
 
 footer span {
@@ -189,6 +188,12 @@ footer span {
   .container {
     width: 750px;
   }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
+
   footer span {
     width: 100%;
     text-align: left;
@@ -199,6 +204,12 @@ footer span {
   .container {
     width: 970px;
   }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
+
   footer span {
     width: 100%;
     text-align: left;
@@ -336,6 +347,8 @@ footer span {
 
   footer {
     clear: both;
+    position: absolute;
+    bottom: 0;
   }
 
   footer span {
