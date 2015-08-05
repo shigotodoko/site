@@ -8,7 +8,6 @@ body {
 
 header {
   background: #2aa6ca;
-  height: 50px;
   text-align: center;
 }
 
@@ -22,6 +21,19 @@ header h1 {
 header img,
 header .send-button {
   display: none;
+}
+
+main {
+  clear: both;
+}
+
+.articles-list {
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  position: relative;
+  min-height: 100%;
 }
 
 aside {
@@ -78,9 +90,8 @@ fieldset {
 }
 
 .container {
-  padding: 10px;
   margin: 0 auto;
-  overflow: hidden;
+  padding: 10px;
 }
 
 .article-location {
@@ -168,6 +179,8 @@ fieldset {
 }
 
 footer {
+  position: absolute;
+  bottom: 0;
   background: #2aa6ca;
   width: 100%;
   text-align: center;
@@ -233,7 +246,6 @@ footer span {
   header img {
     display: inline-block;
     width: 149px;
-    height: 29px;
     float: left;
     position: relative;
     top: 10px;
