@@ -4,6 +4,8 @@ body {
   font-family: 'Open Sans', Arial;
   color: #959595;
   font-size: 16px;
+  position: absolute;
+  height: 100%;
 }
 
 header {
@@ -32,8 +34,8 @@ main {
 }
 
 .wrapper {
-  position: relative;
   min-height: 100%;
+  overflow: auto;
 }
 
 aside {
@@ -179,7 +181,7 @@ fieldset {
 }
 
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   background: #2aa6ca;
   width: 100%;
@@ -203,7 +205,7 @@ footer span {
   }
 
   footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
   }
 
@@ -219,7 +221,7 @@ footer span {
   }
 
   footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
   }
 
@@ -359,7 +361,7 @@ footer span {
 
   footer {
     clear: both;
-    position: absolute;
+    position: relative;
     bottom: 0;
   }
 
