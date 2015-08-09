@@ -346,10 +346,13 @@ footer span {
     padding: 15px;
   }
 
-  .search-desktop {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+  .province-name {
+    float: right;
+    position: relative;
+    bottom: 55px;
+    right: 10px;
+    font-size: 2em;
+    color: #2aa6ca;
   }
 
   use:hover {
@@ -357,6 +360,12 @@ footer span {
     stroke: #1a80b0;
     stroke-width: 2px;
     z-index: 2
+  }
+
+  .province-selected {
+    fill: #29a5cb;
+    stroke: #1a80b0;
+    stroke-width: 2px;
   }
 
   footer {
