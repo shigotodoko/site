@@ -46,6 +46,10 @@ fieldset {
   border: 0;
 }
 
+.small {
+  font-size: 85%;
+}
+
 .box {
   background: #fff;
   border-radius: 3px;
@@ -192,7 +196,6 @@ footer {
 footer span {
   display: inline-block;
   color: #fff;
-  font-size: 13px;
 }
 
 .clear {
