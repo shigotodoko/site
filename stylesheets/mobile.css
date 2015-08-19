@@ -47,7 +47,7 @@ fieldset {
 }
 
 .small {
-  font-size: 85%;
+  font-size: 76%;
 }
 
 .box {
@@ -84,11 +84,12 @@ fieldset {
   overflow: hidden;
   padding: 8px;
   border-bottom: 1px solid #ccc;
+  color: #2aa6ca;
 }
 
 .article-title a {
-  color: #2aa6ca;
   text-decoration: none;
+  color: #2aa6ca;
 }
 
 .article-body {
@@ -133,6 +134,22 @@ fieldset {
   position: absolute;
   right: 15px;
   bottom: 15px;
+}
+
+.article-body .article-location,
+.article-body .article-subtitle {
+  font-size: 1em;
+}
+
+.article-body .article-subtitle {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.article-body .article-full-description,
+.article-body .article-requirements,
+.article-body .article-benefits {
+  line-height: 200%;
 }
 
 .facebook-color {
