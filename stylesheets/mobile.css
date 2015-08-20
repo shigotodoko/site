@@ -224,6 +224,10 @@ footer span {
     width: 750px;
   }
 
+  .ad-320-568 {
+    display: none;
+  }
+
   footer {
     position: relative;
     bottom: 0;
@@ -240,6 +244,10 @@ footer span {
     width: 970px;
   }
 
+  .ad-320-568 {
+    display: none;
+  }
+
   footer {
     position: relative;
     bottom: 0;
@@ -254,6 +262,10 @@ footer span {
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
+  }
+
+  .ad-320-568 {
+    display: none;
   }
 
   header {
