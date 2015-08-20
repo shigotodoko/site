@@ -29,6 +29,19 @@ main {
   clear: both;
 }
 
+.align-mobile-ad {
+  text-align: center;
+}
+
+.ad-320-568.header {
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
+
+.ad-320-568.bottom {
+  margin-bottom: 10px;
+}
+
 .articles-list {
   margin-bottom: 10px;
 }
