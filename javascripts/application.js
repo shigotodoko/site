@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   App = {};
 
-  App.displayProvinceName = $("#filter-by-province-name");
+  App.displayProvinceName = $(".filter-by-province-name");
 
   App.SearchForm = {
     setDisplayText: function(provinceName) {
