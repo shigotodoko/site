@@ -39,16 +39,20 @@ $(document).ready(function() {
     $(this).hover(mouseOverHandler, mouseOutHandler);
   });
 
-  App.displayProvinceName.on('change', function() {
-    var provinceName = $(this).val();
-    // search for all provinces with class 'province-selected' and remove its class.
-    App.SearchForm.clearSelected();
+  App.displayProvinceName.selectize({
+    onChange: function(value) {
+      var provinceName = value;
+      // search for all provinces with class 'province-selected' and remove its class.
+      App.SearchForm.clearSelected();
 
-    // highlight the province block in map
-    provinceMap = document.querySelector('[data-province-name="' + provinceName + '"]');
-    provinceMap.setAttribute('class', 'province-selected');
+      if (provinceName) {
+        // highlight the province block in map
+        provinceMap = document.querySelector('[data-province-name="' + provinceName + '"]');
+        provinceMap.setAttribute('class', 'province-selected');
 
-    // Display the province selected name on label.
-    App.SearchForm.setDisplayText(provinceName);
+        // Display the province selected name on label.
+        App.SearchForm.setDisplayText(provinceName);
+      }
+    }
   });
 });

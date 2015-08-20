@@ -388,16 +388,11 @@ footer span {
     stroke-width: 2px;
   }
 
-  .filter-by-province-name {
-    width: 85%;
-    outline: none;
-    box-sizing: border-box;
-    border: 1px solid transparent;
-    font-size: 16px;
-    font-weight: bold;
-    color: #444;
-    padding: .6em 1.9em .5em .8em;
-    line-height: 1.3;
+  .selectize-control {
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    top: 10px;
   }
 
   footer {
