@@ -13,14 +13,19 @@ header {
   text-align: center;
 }
 
+/*
 header h1 {
   display: inline-block;
   color: #fff;
   font-size: 24px;
   line-height: 30px;
 }
+*/
 
-header img,
+header img {
+  vertical-align: middle;
+}
+
 header .send-button {
   display: none;
 }
@@ -335,7 +340,7 @@ footer span {
     width: 149px;
     float: left;
     position: relative;
-    top: 10px;
+    top: 8px;
   }
 
   .send-job .send-button {
