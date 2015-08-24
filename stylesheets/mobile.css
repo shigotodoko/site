@@ -142,7 +142,7 @@ fieldset {
   list-style: none;
   float: left;
   padding-bottom: 10px;
-  font-size: 19px;
+  font-size: 30px;
 }
 
 .article-social-and-tags li {
@@ -155,6 +155,7 @@ fieldset {
   position: absolute;
   right: 15px;
   bottom: 15px;
+  color: #2aa6ca;
 }
 
 .article-body .article-location,
@@ -237,7 +238,7 @@ footer span {
   color: #fff;
 }
 
-.follow-network {
+.title {
   margin-top: 10px;
   margin-bottom: 10px;
   display: block;
