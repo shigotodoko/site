@@ -228,7 +228,8 @@ footer {
   background: #2aa6ca;
   width: 100%;
   text-align: center;
-  min-height: 8%;
+  min-height: 5%;
+  clear: both;
 }
 
 footer span {
@@ -244,12 +245,15 @@ footer span {
 }
 
 .social-networks {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
   text-align: center;
 }
 
 .social-networks li {
   display: inline-block;
-  width: 33%;
+  margin-right: .5rem;
 }
 
 .social-networks li a {
@@ -258,6 +262,8 @@ footer span {
   color: transparent;
   width: 39px;
   height: 38px;
+  position: relative;
+  left: 25%;
 }
 
 .social-networks a[href*='facebook.com'] {
@@ -319,6 +325,12 @@ footer span {
     padding-bottom: 15px;
   }
 
+  .social-networks {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
   footer {
     position: relative;
     bottom: 0;
@@ -344,10 +356,6 @@ footer span {
     bottom: 0;
   }
 
-  footer span {
-    width: 100%;
-    text-align: left;
-  }
 }
 
 @media (min-width: 1200px) {
@@ -501,10 +509,5 @@ footer span {
     clear: both;
     position: relative;
     bottom: 0;
-  }
-
-  footer span {
-    width: 100%;
-    text-align: right;
   }
 }
