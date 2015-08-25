@@ -332,6 +332,30 @@ footer span {
     margin-bottom: 30px;
   }
 
+  .partner {
+    padding: 15px;
+  }
+
+  .partner-link {
+    font-size: 0.8em;
+  }
+
+  .partner-link a {
+    color: #ccc;
+    font-style: italic;
+  }
+
+  .partner a {
+    color: #2aa6ca;
+    text-decoration: none;
+    margin-bottom: 15px;
+  }
+
+  .partner a:hover {
+    color: #2aa6ca;
+    text-decoration: underline;
+  }
+
   footer {
     position: relative;
     bottom: 0;
