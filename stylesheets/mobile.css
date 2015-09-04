@@ -560,6 +560,12 @@ footer span {
     clear: none;
   }
 
+  .partners-announcement {
+    margin: 15px;
+    border-top: 1px solid #ccc;
+    padding-top: 30px;
+  }
+
   footer {
     clear: both;
     position: relative;
