@@ -34,6 +34,7 @@ main {
 }
 
 .ad-320-568.footer {
+  margin-top: 10px;
   margin-bottom: 0px;
 }
 
@@ -47,6 +48,16 @@ main {
 
 .ad-300-250 {
   display: none;
+}
+
+.partners-section {
+  clear: both;
+  padding: 15px;
+}
+
+.partners-section p a {
+  color: #2aa6ca;
+  text-decoration: none;
 }
 
 .articles-list {
@@ -307,7 +318,7 @@ footer span {
 
   .ad-from-768.footer {
     display: block;
-    margin-top: 15px;
+    margin-top: 30px;
     margin-bottom: 20px;
   }
 
@@ -537,6 +548,14 @@ footer span {
     display: inline-block;
     width: 90%;
     top: 10px;
+  }
+
+  .partners-mobile {
+    display: none;
+  }
+
+  .partners-desktop .partners-section {
+    clear: none;
   }
 
   footer {
