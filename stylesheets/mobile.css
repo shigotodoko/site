@@ -55,6 +55,7 @@ main {
   padding: 15px;
 }
 
+.partners-section h1 a,
 .partners-section p a {
   color: #2aa6ca;
   text-decoration: none;
@@ -499,6 +500,7 @@ footer span {
 
   .map {
     min-height: 650px;
+    position: relative;
   }
 
   .map h1 {
@@ -523,8 +525,8 @@ footer span {
 
   .province-name {
     float: right;
-    position: relative;
-    bottom: 55px;
+    position: absolute;
+    bottom: 25px;
     right: 10px;
     font-size: 2em;
     color: #2aa6ca;
