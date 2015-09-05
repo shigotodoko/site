@@ -118,6 +118,11 @@ fieldset {
   color: #2aa6ca;
 }
 
+.article-pubdate {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
 .article-title a {
   text-decoration: none;
   color: #2aa6ca;
@@ -169,7 +174,7 @@ fieldset {
 }
 
 .article-body .article-location,
-.article-body .article-subtitle {
+.article-subtitle {
   font-size: 1em;
 }
 
@@ -182,6 +187,11 @@ fieldset {
 .article-body .article-requirements,
 .article-body .article-benefits {
   line-height: 200%;
+}
+
+.article-contractor a {
+  display: block;
+  color: #2aa6ca;
 }
 
 .facebook-color {
