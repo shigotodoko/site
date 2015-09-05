@@ -74,6 +74,10 @@ aside {
   display: none;
 }
 
+.post-details-aside {
+  display: block;
+}
+
 fieldset {
   border: 0;
 }
@@ -315,6 +319,10 @@ footer span {
 @media (min-width: 768px) {
   .container {
     width: 750px;
+  }
+
+  .details {
+    overflow: hidden;
   }
 
   .ad-320-568 {
