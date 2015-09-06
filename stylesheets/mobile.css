@@ -497,6 +497,7 @@ footer span {
   }
 
   aside {
+    float: right;
     display: inline-block;
     width: 39%;
     margin-left: 10px;
