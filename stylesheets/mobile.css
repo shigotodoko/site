@@ -25,6 +25,16 @@ main {
   clear: both;
 }
 
+.new-post-box {
+  padding: 15px;
+}
+
+.new-post-box h1 {
+  color: #2aa6ca;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
 .align-mobile-ad {
   text-align: center;
 }
@@ -247,6 +257,18 @@ fieldset {
   padding: 0.3em 0.6em;
 }
 
+textarea,
+input[type="text"] {
+  padding: 5px;
+  border: 1px solid #c2c2c2;
+  width: 95%;
+  color: #2aa6ca;
+  outline: 0;
+  background: 0;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
 footer {
   position: relative;
   bottom: 0;
@@ -394,6 +416,22 @@ footer span {
   .container {
     width: 1170px;
   }
+
+  /* form new-post */
+  label {
+    display: block;
+  }
+
+  .new-post {
+    display: block;
+    text-align: left;
+  }
+
+  .post-info {
+    margin-bottom: 15px;
+  }
+
+  /* /form new-post */
 
   .sprite-social-media {
     background: url(../images/social-media-sprite.png);
