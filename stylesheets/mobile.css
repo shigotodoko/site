@@ -420,6 +420,7 @@ footer span {
   /* form new-post */
   label {
     display: block;
+    font-size: 0.8rem;
   }
 
   .new-post {
