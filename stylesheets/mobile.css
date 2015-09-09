@@ -262,11 +262,11 @@ input[type="text"] {
   padding: 5px;
   border: 1px solid #c2c2c2;
   width: 95%;
-  color: #2aa6ca;
   outline: 0;
   background: 0;
   font-size: 1rem;
   margin-bottom: 15px;
+  border-radius: 3px;
 }
 
 footer {
@@ -502,6 +502,20 @@ footer span {
     text-align: center;
     width: 200px;
     margin: 0 auto;
+  }
+
+  .new-post-send-button {
+    color: #fff;
+    font-weight: normal;
+    text-shadow: 2px 2px 15px rgba(150, 150, 150, 1);
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    background: linear-gradient(#29a5cb, #1a80b0);
+    border-radius: 3px;
+    font-size: 1.3rem;
   }
 
   a.send-button i {
